@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>افتخارات لیگ کاکتوس</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ea;--card:#fff;--ink:#1b1a17;--mute:#7a756a;--gold:#b8860b;--gold2:#e8b923;--silver:#7b8794;--line:#e7e0cc;--glow:rgba(232,185,35,.25);--grn:#1f7a4d;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1210;--card:#161d19;--ink:#f3efe2;--mute:#9a9a8c;--gold:#f0c43c;--gold2:#ffd966;--silver:#b9c3cf;--line:#26332b;--glow:rgba(240,196,60,.18);--grn:#5fd69a}}
+:root[data-theme="dark"]{--bg:#0d1210;--card:#161d19;--ink:#f3efe2;--mute:#9a9a8c;--gold:#f0c43c;--gold2:#ffd966;--silver:#b9c3cf;--line:#26332b;--glow:rgba(240,196,60,.18);--grn:#5fd69a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Vazirmatn",Tahoma,sans-serif;line-height:1.7}
+.wrap{max-width:720px;margin:0 auto;padding:20px 16px 40px}
+.hero{text-align:center;padding:36px 16px 26px;border-radius:28px;background:radial-gradient(circle at 50% 0,var(--glow),transparent 70%),var(--card);border:1px solid var(--line);position:relative;overflow:hidden}
+.hero .cup{font-size:64px;line-height:1;filter:drop-shadow(0 6px 14px var(--glow))}
+h1{margin:8px 0 4px;font-weight:900;font-size:30px;background:linear-gradient(90deg,var(--gold),var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.by{display:inline-block;margin-top:8px;padding:5px 16px;border-radius:99px;background:var(--glow);color:var(--gold);font-weight:600;font-size:14px;border:1px solid var(--line)}
+h2{font-size:21px;font-weight:800;margin:34px 4px 14px;display:flex;align-items:center;gap:8px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid{display:grid;gap:12px}
+.s{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 16px;transition:transform .2s}
+.s:hover{transform:translateY(-2px)}
+.s .t{display:inline-block;font-size:13px;font-weight:700;color:var(--mute);margin-bottom:6px}
+.s .t b{color:var(--gold);font-size:17px;margin-inline-start:4px}
+.r{display:flex;align-items:center;gap:10px;padding:7px 0}
+.r+.r{border-top:1px dashed var(--line)}
+.m{font-size:22px;width:30px;text-align:center}
+.n{font-weight:700;font-size:16px}
+.gold .n{color:var(--gold)}
+.silver .n{color:var(--silver)}
+.na{color:var(--mute)!important;font-weight:400;font-style:italic}
+.s.pend{opacity:.85;border-style:dashed}
+.board{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.row{display:grid;grid-template-columns:38px 1fr auto auto;gap:10px;align-items:center;padding:13px 16px}
+.row+.row{border-top:1px solid var(--line)}
+.row:first-child{background:linear-gradient(90deg,var(--glow),transparent)}
+.rk{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:14px;background:var(--bg);color:var(--mute)}
+.row:first-child .rk{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1b1a17}
+.pn{font-weight:700;font-size:16px}
+.chip{font-weight:800;font-size:15px;padding:2px 12px;border-radius:99px;background:var(--bg);white-space:nowrap}
+.chip.g{color:var(--gold)}
+.chip.sp{color:var(--grn)}
+.legend{display:flex;gap:16px;justify-content:flex-end;font-size:12px;color:var(--mute);padding:0 6px 8px}
+.note{margin-top:26px;text-align:center;padding:14px;border-radius:16px;background:var(--glow);border:1px solid var(--line);font-weight:600;font-size:14px}
+html{scroll-behavior:smooth}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:20}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:15;margin:0 -16px 8px;padding:10px 16px;background:var(--bg);backdrop-filter:blur(10px);display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:1;white-space:nowrap;text-align:center;text-decoration:none;color:var(--ink);font-weight:700;font-size:14px;padding:8px 14px;border-radius:99px;background:var(--card);border:1px solid var(--line);transition:.2s}
+nav a:hover,nav a:active{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1b1a17;border-color:transparent}
+h2,.hero,.note{scroll-margin-top:calc(env(safe-area-inset-top,0px) + 64px)}
+.by{direction:ltr;letter-spacing:.5px;font-family:system-ui,sans-serif}
+section{margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a href="#home">🏠 خانه</a>
+    <a href="#honors">🏟️ فصل‌ها</a>
+    <a href="#gold-ball">🗽 توپ طلا</a>
+    <a href="#notes">📌 نکته</a>
+  </nav>
+  <div class="hero" id="home">
+    <div class="cup">🏆</div>
+    <h1>افتخارات لیگ کاکتوس</h1>
+    <div style="color:var(--mute);font-size:14px">تالار قهرمانان 🌵</div>
+    <div class="by">✨ Created by Spider</div>
+  </div>
+
+  <h2 id="honors">🏟️ فصل به فصل</h2>
+  <div class="grid" id="seasons"></div>
+
+  <h2 id="gold-ball">🗽 توپ طلا داران</h2>
+  <div class="legend"><span>🥇 توپ طلا</span><span>⭐ سوپر توپ طلا</span></div>
+  <div class="board" id="board"></div>
+
+  <div class="note" id="notes">خیلی از فصل ها داد نشده و به چندتا شون پی‌گیری میشود ‼️👌🏾</div>
+</div>
+<script>
+var S=[
+[138,["اولیسه"],["ممدو"]],
+[139,["امیرمسی","ممدو"],["قاسم","ممد فانتوم"]],
+[140,["اسپایدر","طاها رافی"],["امیرمسی","سجاد"]],
+[141,["امیرمسی"],["آرمان"]],
+[142,["امیرمسی","آرشاوین"],["طاها","ابول نمی‌دونم چی 🗿"]],
+[143,["آرشاوین","هخامنش"],["امیرمسی","فانتوم"]],
+[144,["سوشی","ایلیا آنتونی"],["سجاد","منتظر"]],
+[145,["امیرمسی","سجاد"],["قاسم","هخامنش"]],
+[146,null,null],
+[147,null,null]
+];
+var B=[["امیرمسی",3,1],["سجاد",3,0],["ممدو",3,0],["ویرتز",2,0],["قاسم",2,0],["آرشاوین",1,0],["مبین",1,0]];
+var RK=[1,2,2,3,4,5,6];
+function line(cls,m,a){
+  var h=a?a.map(function(x){return '<span class="n">'+x+'</span>'}).join('<span class="n" style="color:var(--mute);font-weight:400"> - </span>'):'<span class="n na">نامعلوم</span>';
+  return '<div class="r '+cls+'"><span class="m">'+m+'</span><div>'+h+'</div></div>';
+}
+document.getElementById('seasons').innerHTML=S.slice().reverse().map(function(s){
+  return '<div class="s'+(s[1]?'':' pend')+'"><span class="t">فصل <b>'+s[0]+'</b></span>'+line('gold','🏆',s[1])+line('silver','🥈',s[2])+'</div>';
+}).join('');
+document.getElementById('board').innerHTML=B.map(function(b,i){
+  return '<div class="row"><span class="rk">'+RK[i]+'</span><span class="pn">'+b[0]+'</span><span class="chip g">🥇 '+b[1]+'</span>'+(b[2]?'<span class="chip sp">⭐ '+b[2]+'</span>':'<span></span>')+'</div>';
+}).join('');
+</script>
+</body>
+</html>
